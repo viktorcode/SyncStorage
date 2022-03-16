@@ -1,6 +1,6 @@
 # SyncStorage
 
-Property wrapper for storing and synchronising property values via iCloud Key-Value Storage. Functions as a local persistent storage when iCloud is unavailable. Can bu used to replace `@AppStorage` property wrapper.
+Property wrapper for storing and synchronising property values via iCloud Key-Value Storage. Functions as a local persistent storage when iCloud is unavailable. Can be used to replace `@AppStorage` property wrapper.
 
         @SyncStorage("music") var musicEnabled = true
         @SyncStorage("sfx") var sfxEnabled = true
